@@ -368,10 +368,59 @@ html {
     color: #787878;
 }
 
+/* Form */
+
+.section-from p {
+    margin: 0;
+}
+
+.section-title {
+    margin-top: 120px;
+    font-size: 36px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-description {
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #787878;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    margin-bottom: 118px;
+}
+
+.input, .btn-submit {
+    flex: 0 0 23.75%;
+    padding-left: 28px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #dadada;
+    outline: none;
+}
+
+
+.input::placeholder {
+    color:#787878;
+}
+
+
 /* Footer */
 
 .footer {
     height: 125px;
+    border-top: 1px solid #dadada;
 }
 
 .footer-container {
